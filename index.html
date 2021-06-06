@@ -16,6 +16,19 @@
 	<link rel="stylesheet" href="style.css"/>
 	<title>FUGAZI Website</title>
 </head>
+
+<style>
+	#qrcode {
+        width: 65%;
+        height: auto;
+    }
+    #trustwalletimage {
+        width: 85%;
+        height: auto;
+    }
+ 
+</style>
+
 <body>
 	<div class="home pb-5">
 		<nav class=" navbar custom-navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -73,7 +86,7 @@
 								COIN
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="https://poocoin.app/">MARKET DATA</a>
+								<a class="dropdown-item" href="https://poocoin.app/tokens/0xfc82cb5985a7adbeb9bab440a7b73676c98a1673">MARKET DATA</a>
 								<a class="dropdown-item" href="#">WALLET</a>
 								<a class="dropdown-item" href="#">BUY & SELL</a>
 								<a class="dropdown-item" href="#">EXCHANGE</a>
@@ -164,20 +177,20 @@
 			<div class="col-lg-4 col-12">
 				<div class="section-2-content">
 					<div class="section2-overlay">
-						<i class="fa fa-3x fa-book section-2-icon"></i>
+						<i class="fa fa-3x fa-cart-plus section-2-icon"></i>
 						<h5>Buy on Pancake Swap</h5>
 						<p></p>
-						<a href="https://pancakeswap.finance" target="_blank">Read more<i class="fa fa-forward pl-2"></i></i></a>
+						<a href="https://pancakeswap.finance" target="_blank">Direct link<i class="fa fa-forward pl-2"></i></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-12">
 				<div class="section-2-content">
 					<div class="section2-overlay">
-						<i class="fa fa-3x fa-cart-plus section-2-icon"></i>
+						<i class="fa fa-3x fa-book section-2-icon"></i>
 						<h5>Tutorial</h5>
 						<p></p>
-						<a href="tutorial">Read more<i class="fa fa-forward pl-2"></i></i></a>
+						<a href="#tutorial">Read more<i class="fa fa-forward pl-2"></i></i></a>
 					</div>
 				</div>
 			</div>
@@ -205,17 +218,22 @@
   				<p>Tap the icon on the top-right corner and search for "<strong class="highlight">Fugazi</strong>". If it's not there, scroll all the way down and tap "<strong class="highlight">Add Custom Token</strong>".</p>
   				<p>For Network, set "Ethereum" to "<strong class="highlight">Smart Chain</strong>". Now copy the contract address from this website above and paste it in the
   Contract Address box.</p>
-  				<p>It should autofill "Fugazi" for the name, "Fugazi" for the symbol, and "9" for the decimals.</p>
+  				<p>It should autofill "Fugazi" for the name, "Fugazi" for the symbol, and "18" for the decimals.</p>
   				<p>Click <strong class="highlight">"Save"</strong> and you should now have Fugazi added to your wallet!</p>
   			</div>
 			</div>
 			
 			<div class="col-md-6" align="center">
-			<img src="image/wallet-img.png" alt="" class="img-fluid">
-			
-			
+			<img id="qrcode" src="image/QR_CODE.png" alt="" class="img-fluid">
+			<img id="trustwalletimage" src="image/trust_wallet_add.png" alt="" class="img-fluid">
 			</div>
-			
+
+
+<!-- 			<div class="col-md-6" align="center">
+			<img src="image/trust_wallet_add.png" alt="" class="img-fluid">
+			</div> -->
+
+
 			</div>
 			
 			
@@ -241,10 +259,15 @@
           <p>You may run into problems swapping if you didn't leave some Smart Chain BNB leftover to use as gas (the app uses BNB as gas). Make sure the slippage is set to 12%. Lastly, you may have to manually change the amount of Fugazis in the swap box to end with the number "1" instead of "0".</p>
 			</div>
 			</div>
-			
-				<div class="col-md-6" align="center">
-					<img src="image/wallet-img2.png" alt="" class="img-fluid">
-				</div>
+
+			<div class="col-md-6" align="center">
+			<img src="image/wallet-img.png" alt="" class="img-fluid">
+			<img src="image/wallet-img2.png" alt="" class="img-fluid">
+			</div>
+
+<!-- 			<div class="col-md-6" align="center">
+			<img src="image/wallet-img2.png" alt="" class="img-fluid">
+			</div> -->
 			
 			</div>
 		
@@ -382,19 +405,19 @@
 	         <div class="container">
 	             <div class="row">
 	                 <div class="col-md-12">
-	                     <a href="#"><img src="images/footer-logo.png" class="img-fluid"></a>
+	                     <!-- <a href="#"><img src="images/footer-logo.png" class="img-fluid"></a> -->
 
-	                     <div class="footer-social">
+<!-- 	                     <div class="footer-social">
 	                        <ul>
 	                           <li><a target="_blank" href="https://t.me/FugaziToken"><img src="images/telegram.png" /></a></li>
 	                           <li><a target="_blank" href="https://twitter.com/FugaziBSC"><img src="images/twitter.png" /></a></li>
-	                           <!-- <li><a href="#"><img src="images/discord.png" /></a></li> -->
+	                           <li><a href="#"><img src="images/discord.png" /></a></li>
 	                           <li><a target="_blank" href="https://tiktok.com/@Fugazitoken"><img src="images/tiktok.png" /></a></li>
 	                           <li><a target="_blank" href="https://reddit.com/r/Fugazi"><img src="images/reddit.png" /></a></li>
 	                        </ul>
-	                     </div>
+	                     </div> -->
 
-	                     <p><strong>Contract Address (BSC): <u><a id="copy-target" class="p2" href="https://bscscan.com/token/0x3b44e6d655226e79b3d2ac510c11b2637a9f50dd" target="_blank">0xfC82Cb5985a7AdbEb9BAB440A7B73676c98a1673</a></u></strong><button type="submit" onclick="copyClip($('#copy-target').get());">Copy <i class="fa fa-copy"></i></button></p>
+	                     <p><strong>Contract Address (BSC): <u><a id="copy-target" class="p2" href="https://bscscan.com/token/0xfC82Cb5985a7AdbEb9BAB440A7B73676c98a1673" target="_blank">0xfC82Cb5985a7AdbEb9BAB440A7B73676c98a1673</a></u></strong><button type="submit" onclick="copyClip($('#copy-target').get());">Copy <i class="fa fa-copy"></i></button></p>
 
 	                     <p>2021. Fugazi. All rights reserved.</p>
 	                 </div>
