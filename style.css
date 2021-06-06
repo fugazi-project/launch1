@@ -121,7 +121,7 @@
 }
 .section-2 h5{
 	font-size: 28px;
-	padding-top: 20px;
+	padding-top: 30px;
 	color: #6f6d6d;
 }
 .section-2-content:hover h5{
@@ -160,10 +160,10 @@
 }
 
 .section2-overlay {
-	padding: 35px;
+	padding: 25px;
 }
 .section-2-content:hover {
-	background-image: url("image/section-2.jpg");
+	background-image: url("image/section-2_new.png");
 	background-size: cover;
 	transition: all 0.4s ease-out 0s;
 	color: #fff;
