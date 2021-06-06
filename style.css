@@ -49,13 +49,13 @@
 	}
 }
 .custom-navbar .navbar-nav .nav-link:hover {
-	color: #f9b707
+	color: #00a3a7
 }
 .custom-navbar .navbar-nav .active>.nav-link{
-	color: #f9b707;
+	color: #00a3a7;
 }
 .custom-navbar .navbar-nav .dropdown-menu.dropdown-color{
-	background-color: #f9b707; 
+	background-color: #00a3a7; 
 }
 .image-transition{
 	height: 600px;
@@ -80,7 +80,7 @@
 .home-content a{
 	color: #fff;
 	padding: 10px 20px;
-	background-color:#f9b707; 
+	background-color:#00a3a7; 
 }
 .home-content a:hover{
 	text-decoration: none;
@@ -117,7 +117,7 @@
 	color: #000;
 }
 .section-2-content a:hover{
-	color: #f9b707;
+	color: #00a3a7;
 }
 .section-2 h5{
 	font-size: 28px;
@@ -128,7 +128,7 @@
 	color: #fff;
 }
 .section-2-content h5:hover {
-	color: #f9b707;
+	color: #00a3a7;
 }
 .section-2-content:hover p{
 	color: #fff;
@@ -176,11 +176,11 @@
 	background: #0000009e;
 }
 .section-2-content:hover .section-4-p {
-     color:#f9b707;
+     color:#a1e706;
      text-decoration: none; 
 }
 .section-2-content:hover .section-4-header a{
-	 color:#f9b707;
+	 color:#a1e706;
      text-decoration: none; 
 }
 
@@ -212,12 +212,12 @@
 /*section-4*/
 
 .section-4-link:hover {
-     color:#f9b707;
+     color:#00a3a7;
      text-decoration: none; 
 }
 .sec4-title a:hover{
 	text-decoration: none;
-	color: #f9b707;
+	color: #00a3a7;
 }
 
 @media (min-width: 992px) {
@@ -236,7 +236,7 @@
     text-align: center;
     margin-right: 15px;
     color: #fff;
-    background-color:#f9b707; 
+    background-color:#00a3a7; 
 }
 
 .section-6-img {
@@ -283,7 +283,7 @@
 	color: #fff;
 }
 .section-7 h3{
-	color: #f9b707;
+	color: #00a3a7;
 	font-size: 40px;
 }
 .section-7 h6{
@@ -309,7 +309,7 @@
 /*section-8*/
 
 .section-8-name:hover{
-	color: #f9b707;
+	color: #00a3a7;
 	text-decoration: none;
 }
 .section-8-name{
@@ -347,7 +347,7 @@
 .section-9-right-icon{
 	padding-bottom: 20px;
 	margin-top: 10px;
-	color: #f9b707;
+	color: #00a3a7;
 }
 
 .section-9-item-subtitle {
@@ -387,19 +387,19 @@
 }
 .card-title:hover{
 	text-decoration: none;
-	color: #f9b707;
+	color: #00a3a7;
 }
 .news-date{
     position: absolute;
     bottom: 228px;
     left: 0;
     padding: 2px 8px;
-    background: #f9b707;
+    background: #00a3a7;
     color: #ffffff;
 }
 .card-link:hover{
 	text-decoration: none;
-	color:#f9b707; 
+	color:#00a3a7; 
 }
 
 
@@ -413,7 +413,7 @@
 	width: 180px;
 }
 .section-11-icon{
-	color: #f9b707;
+	color: #00a3a7;
 }
 .section-11 .section-11-overlay{
 	background-color: #2b2929a8;
@@ -434,7 +434,7 @@
 .custom-menu li a:hover{
 	text-decoration: none;
 	background-color: #80808096;
-	color: #f9b707;
+	color: #00a3a7;
 }
 .custom-form .form-row .form-group .form-control{
 	border-radius: 0px;
@@ -449,7 +449,7 @@
 	margin-bottom: 80px;
 }
 .section-11-button{
-	background-color:#f9b707;
+	background-color:#00a3a7;
 	color: #fff;
 }
 .section-11-button:hover{
