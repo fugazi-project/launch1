@@ -1,19 +1,29 @@
 .home{
-	/*background-image: url('image/top-bg.jpg')*/;
-	background-image: url('image/bg-13.jpg')
+	/*background-image: url('image/top-bg.jpg')*/
+	background-image: url('image/giphy_25.gif');
 	background-repeat: no-repeat;
+	height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
+/*@media (min-width: 992px) {
+	.home-content{
+	padding-right: 200px;
+	padding-left: 200px;
+  }	
+}*/
 @media (min-width: 992px) {
 	.home-content{
 	padding-right: 200px;
 	padding-left: 200px;
   }	
 }
-.bg-13{
+.giphy_25{
 	width: 100%;
 }
 .brand-logo{
-	height: 40px;
+	height: 60px;
 	/*padding-left: 100px;*/
 }
 .nav-padding{
@@ -26,7 +36,8 @@
 	background-color: #151d2e;
 }
 .custom-navbar .navbar-nav .nav-link {
-	color: #fff;
+	/*color: #fff;*/
+	color: #151d2e;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -56,11 +67,12 @@
 	width: 200px;
 }
 .home-content h1{
-	color: #fff;
+	/*color: #fff;*/
+	color: #151d2e;
 	font-size: 50px;
 }
 .home-content p{
-	color: #fff;
+	color: #036903;
 	font-size: 20px;
 	margin-bottom: 70px;
 	margin-top: 30px;
