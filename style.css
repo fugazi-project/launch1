@@ -262,11 +262,11 @@
 	background: #171616b8;
 }
 .section-7{
-	background-image: url("image/bg-7.jpg");
+	background-image: url("image/bp-special.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 300px 100px;
 }
 .section-7-content{
 	color: #fff;
@@ -642,10 +642,102 @@
   max-width: 50%;
 }
 
+/*.col-13 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}*/
+
+/* Footer Section */ 
+
+ .footer-main {background-image: url('../image/contactus.jpg');background-position: left top;background-repeat: no-repeat;background-size: cover;padding: 5% 0 50px;text-align: center;margin-top: -100px;}
+ .footer-social {margin: 0px 0;}
+ .footer-social li {display: inline-block;width: auto;margin: 0 20px;}
+ .footer-social li img {width: 60px;height: auto;transition: ease-in .5s;}
+ .footer-social li a:hover img {transform: rotate(360deg) scale(1.2);filter: invert(100%);}
+ .footer-main p a { color: #161314; }
+ .footer-main button {
+    background: #e60545;
+    color: #fff;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+.footer-main button:focus, .footer-main button:hover {box-shadow: none; background: #161314; }
 
 
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
 
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
 
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #374a52;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #374a52;
+  color: white;
+}
 
